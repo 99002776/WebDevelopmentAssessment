@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form,div{
+            text-align: center;
+        }
+        body{
+            text-align: center;
+            font-size: 180%;
+            background-color: darkseagreen;
+        }
+        h1{
+            text-align: center;
+            background-color: darkolivegreen;
+        }
+    </style>
+    <script src="../Node/scripts/Common.js"></script>
+    <script>
+        function printData()
+        {
+            var textdata=$("Inp").value;
+            var lis=$("divid");
+            lis.innerHTML=textdata;
+             var   v=$("date").value
+            lis.innerHTML+=v;
+            var listval=$("sellist").value
+            lis.innerHTML+=listval
+            var radiao=$("radio").value
+            list.innerHTML+=radiao
+        }
+    </script>
+</head>
+<body>
+    <h1>WEB FORM</h1>
+    <form  name="form1">
+       <p>Enter Name<input type="text" placeholder="Enter Name" id="Inp"></p>
+    </p> Enter DOB<input type="date" placeholder="Enter Date of Birth" id="date"></p>
+    <p>Select FoodType
+        <select id="sellist">
+            <option>Vegetarian</option>
+            <option>Non-Vegetarian</option>
+            <option>Both</option>      
+        </select></p>
+        <!-- <input type="text" placeholder="Select the type of food" list="sellist" /> -->
+    <p>Gender<input type="radio" id="rad" value="radio" name="gender">Male<input type="radio" id="rad" value="radio" name="gender">Female<input type="radio" id="rad" value="radio" name="gender" >Others</p>
+    <p>Submit<input type="button"  onclick="printData()"> Submit</button></p>
+    </form>
+    
+    
+    <div id="divid">
+        
+    </div>
+</body>
+</html>
