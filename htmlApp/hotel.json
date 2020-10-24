@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Elegance",
+        "city": "Hyderabad",
+        "type": "Non-Vegetarian",
+        "cuisine": ["Indian", "chinese","Italian"]
+    },
+    {
+        "name": "Kalyani",
+        "city": "Mysore",
+        "type": "Vegetarian",
+        "cuisine": ["Indian","chinese"]
+    },
+    {
+        "name": "rajbhavan",
+        "city": "bangalore",
+        "type": "Non-Vegetarian",
+        "cuisine": ["Indian"]
+    }
+]
